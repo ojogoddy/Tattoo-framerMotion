@@ -8,7 +8,7 @@ const Testimonial:React.FC = () => {
     <motion.section variants={fadeIn("up")}
     initial="hidden"
     whileInView={"show"}
-    viewport={{ once: false, amount: 0.2 }}className='pb-[40px] xl:pb-[160px] xl:pt-0 '>
+    viewport={{ once: false, amount: 0.2 }} className='pb-[40px] xl:pb-[160px] xl:pt-0 '>
         <div className="container mx-auto">
             <Swiper>
                 {testimonialData.map((slide, index)=>{

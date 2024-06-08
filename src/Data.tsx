@@ -11,7 +11,8 @@ import GalleryImg8 from "../src/assets/img/gallery/8.png"
 import QuoteImg from "../src/assets/img/testimonial/quote.svg"
 //import icons
 import {IoLogoInstagram, IoLogoFacebook, IoLogoPinterest, IoLogoTwitter, IoLogoYoutube, IoMdArrowForward} from "react-icons/io"
-import { FaPlay } from "react-icons/fa"
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt, FaPlay } from "react-icons/fa"
+import { FiSend } from "react-icons/fi"
 
 //Navbar & Header section
 export const headerData ={
@@ -134,3 +135,80 @@ export const interviewData = {
         occupation: "Tattoo Artist",
       },
   ]
+//   CONTACT SECTION
+export const contactData = {
+    title: "Get in touch with us",
+    info: [
+        {
+            title: "Ankara Studio",
+            subtitle: "In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus",
+            address: {
+                icon: <FaMapMarkerAlt />,
+                name: "784.Cd 145.Sk 4/A 06200, Çankaya, Ankara",
+              },
+              phone: {
+                icon: <FaPhoneAlt />,
+                number: "+90 (555) 555 55-55",
+              },
+              email: {
+                icon: <FaEnvelope />,
+                address: "contact@yourcompany.com",
+              },
+              link: "Get location",
+        }
+    ],
+    form: {
+        name: "Your name",
+        email: "Your email address",
+        message: "your messages",
+        btnText: "send"
+    }
+}
+
+// FOOTER SECTION
+export const footerData = {
+    about: {
+        title: "About Us",
+    subtitle:
+      "Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus",
+    address: {
+      icon: <FaMapMarkerAlt />,
+      name: "784.Cd 145.Sk 4/A 06200, Çankaya, Ankara",
+        },
+        phone: {
+            icon: <FaPhoneAlt />,
+            number: "+90 (555) 555 55-55",
+          },
+          email: {
+            icon: <FaEnvelope />,
+            address: "contact@yourcompany.com",
+          },
+
+    },
+    links: {
+        title: "Useful links",
+        items: [
+          { href: "/about", name: "About us" },
+          { href: "/gallery", name: "Gallery" },
+          { href: "/contact", name: "Contact" },
+        ],
+      },
+      program: {
+        title: "Working Time",
+        items: [
+          { name: "Mon - Tue / Appointment" },
+          { name: "Wed - Fri / 10:00 - 9:00pm" },
+          { name: "Sat / 10:00 - 6:00pm" },
+          { name: "Sun / no work on this day" },
+        ],
+      },
+      newsletter: {
+        title: "Newsletter",
+        subtitle:
+          "Elit duis porttitor massa tellus nun in velit arcu posuere integer.",
+        form: {
+          placeholder: "Your email address",
+          icon: <FiSend />,
+        },
+      },
+}

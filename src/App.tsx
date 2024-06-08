@@ -6,6 +6,9 @@ import GallerySection from './component/GallerySection'
 import Skills from './component/Skills'
 import Testimonial from './component/Testimonial'
 import Interview from './component/Interview'
+import Contact from './component/Contact'
+import Footer from './component/Footer'
+import Copyright from './component/Copyright'
 
 const App:React.FC = () => {
   return (
@@ -17,6 +20,9 @@ const App:React.FC = () => {
       <Skills/>
       <Testimonial/>
       <Interview/>
+      <Contact/>
+      <Footer/>
+      <Copyright/>
     </div>
   )
 }
