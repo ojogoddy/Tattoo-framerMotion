@@ -3,7 +3,7 @@ import {motion} from "framer-motion"
 import { fadeIn } from '../Variant'
 import { contactData } from '../Data'
 
-const Contact = () => {
+const Contact:React.FC = () => {
     const {title, info, form} = contactData
   return (
     <section className='section bg-gray-100'>

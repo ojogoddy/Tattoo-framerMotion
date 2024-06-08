@@ -1,7 +1,7 @@
 import React from 'react'
 import { navData } from '../Data'
 
-const Nav = () => {
+const Nav:React.FC = () => {
     const {items} = navData
   return (
     <nav>
